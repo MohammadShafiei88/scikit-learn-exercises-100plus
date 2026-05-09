@@ -1,0 +1,15 @@
+[workspace]
+authors = ["MohammadShafiei88 <m.shafiei6674@gmail.com>"]
+channels = ["conda-forge"]
+name = "ML"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyter = ">=1.1.1,<2"
+notebook = ">=7.5.6,<8"
+scikit-learn = ">=1.8.0,<2"
+numpy = ">=2.4.3,<3"
+pandas = ">=3.0.2,<4"
